@@ -1,0 +1,25 @@
+.navbar {background-color: #929292;
+        float: left;
+        position: relative;
+        height: 6em;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        display: inline;
+
+      }
+
+
+.nav-item{
+  top: 50%;
+  height: 5em;
+  margin-top: -2.5em;
+  padding: 1em;
+  text-decoration: none;
+  display: inline-block;
+}
+.nav-item img{
+  max-height: 5em;
+}
