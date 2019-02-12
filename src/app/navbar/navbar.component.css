@@ -1,25 +1,31 @@
 .navbar {background-color: #929292;
-        float: left;
-        position: relative;
-        height: 6em;
-        top: 0px;
-        left: 0px;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        display: inline;
-
+        //float: left;
+        //padding: 2em;
+        align-items: center;
+        display: flex;
+        //height: 8em;
+        //width: 100%;
       }
 
 
 .nav-item{
-  top: 50%;
+
   height: 5em;
-  margin-top: -2.5em;
   padding: 1em;
   text-decoration: none;
-  display: inline-block;
+  flex: 1;
+}
+
+.nav-item.nav-word{
+  margin-left: auto;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  text-decoration: none;
+  color: black;
 }
 .nav-item img{
+  flex: 1;
   max-height: 5em;
 }
